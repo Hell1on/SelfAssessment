@@ -25,6 +25,7 @@
   - window
   - getters and setters:  👂 heard
   - __proto__
+
   - prototype: 👂 heard
   - equality operators: 🖐️ used
   - logical operators: 🖐️ used
