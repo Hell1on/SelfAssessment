@@ -4,40 +4,39 @@
   - Object: 🖐️ used
   - this: 🖐️ used
   - arrow function: 🖐️ used
-  - async function: 👂 heard
-  - call
+  - async function: 🖐️ used
+  - call: 🖐️ used
   - bind: 👂 heard
-  - apply
+  - apply: 🎓 known
   - instanceof
   - ...spread: 🖐️ used
   - ...rest: 🖐️ used
   - typeof: 🖐️ used
   - destructuring: 🖐️ used
   - generator
-  - iterator
+  - iterator: 🖐️ used
   - async generator
   - async iterator
   - chaining:  👂 heard 
-  - optional chaining
+  - optional chaining: 🎓 known
   - IIFE
   - global
   - globalThis
   - window
-  - getters and setters:  👂 heard
-  - __proto__
-
-  - prototype: 👂 heard
+  - getters and setters: 🎓 known
+  - __proto__: 🖐️ used
+  - prototype: 🎓 known
   - equality operators: 🖐️ used
   - logical operators: 🖐️ used
   - bitwise operators: 👂 heard
   - ternary operator: 🖐️ used
-  - void: 👂 heard
+  - void: 🖐️ used
   - yield
-  - await: 👂 heard
+  - await: 🎓 known
   - template literal
-  - strict mode
-  - delete: 👂 heard
-  - in
+  - strict mode: 🖐️ used
+  - delete: 🎓 known
+  - in: 🖐️ used
   - super
   - Symbol: 👂 heard
   - Reflect
@@ -52,39 +51,39 @@
   - throw: 🎓 known
   - break: 🖐️ used
   - continue: 🖐️ used
-  - import: 🎓 known
-  - export: 🎓 known
-  - label: 👂 heard
+  - import: 🖐️ used
+  - export: 🖐️ used
+  - label: 🎓 known
   - try..catch: 🖐️ used
   - switch: 🖐️ used
-  - class: 👂 heard
-  - new Error
+  - class: 🎓 known
+  - new Error: 👂 heard
   - with
 - Functions
   - function declaration: 🖐️ used
   - function expression: 🖐️ used
   - return: 🖐️ used
   - default parameters: 🖐️ used
-  - functional object: 👂 heard
+  - functional object: 🖐️ used
 - Data structures
   - Array: 🖐️ used
   - mixin: 👂 heard
   - extend
-  - typed arrays
-  - Map: 🎓 known
-  - Set: 🎓 known
-  - undefined: 🎓 known
+  - typed arrays: 🎓 known
+  - Map: 🖐️ used
+  - Set: 🖐️ used
+  - undefined: 🖐️ used
   - null: 🖐️ used
   - Proxy
   - weak collections
-  - timers: 👂 heard
-  - EventEmitter: 👂 heard
+  - timers: 🖐️ used
+  - EventEmitter: 🎓 known
   - RegExp
-  - Date: 👂 heard
-  - BigInt
+  - Date: 🖐️ used
+  - BigInt: 👂 heard
 - Infrastructure
   - V8: 👂 heard
-  - Node.js: 
-  - npm: 👂 heard
-  - prettier: 👂 heard 
+  - Node.js: 👂 heard
+  - npm: 🖐️ used
+  - prettier: 🖐️ used 
   - MDN: 🖐️ used
