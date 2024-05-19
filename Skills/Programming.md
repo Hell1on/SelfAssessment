@@ -5,16 +5,16 @@
   - identifier: 🖐️ used
   - variable: 🖐️ used
   - constant: 🖐️ used
-  - scalar: 👂 heard
-  - literal: 🎓 known
+  - scalar: 🖐️ used
+  - literal: 🖐️ used
   - expression: 🖐️ used
-  - heap
+  - heap: 🖐️ used
   - function: 🖐️ used
-  - procedure: 👂 heard
+  - procedure: 🖐️ used
   - method: 🖐️ used
-  - class: 👂 heard
-  - prototype: 👂 heard
-  - event: 👂 heard
+  - class: 🖐️ used
+  - prototype: 🖐️ used
+  - event: 🖐️ used
   - type: 🖐️ used
   - primitive types: 🖐️ used
   - reference types: 🖐️ used
@@ -23,30 +23,30 @@
   - code block: 🎓 known
   - conditions: 🖐️ used
   - loops: 🖐️ used
-  - assignment
-  - regular expression
+  - assignment: 🎓 known
+  - regular expression: 🎓 known
   - interface
   - contract
   - module: 🎓 known
-  - call stack
+  - call stack: 🎓 known
 - Functions
-  - signature: 🎓 known
+  - signature: 🖐️ used
   - argument: 🖐️ used
   - parameter: 🖐️ used
-  - pure function: 👂 heard
+  - pure function: 🖐️ used
   - lambda expression: 🖐️ used
   - side effects: 👂 heard
-  - closure: 🎓 known
+  - closure: 🖐️ used
   - partial application
   - curry
   - higher order
-  - recursion: 🎓 known
+  - recursion: 🖐️ used
   - callback: 🖐️ used
   - listener
   - compose
   - pipe
   - memoize
-  - wrapper
+  - wrapper: 🎓 known
   - functor
   - monad
   - monoid
@@ -54,53 +54,53 @@
   - coroutine
 - Data structures
   - array: 🖐️ used
-  - structure: 👂 heard
+  - structure: 🎓 known
   - record
   - enum
   - instance
   - object: 🖐️ used
-  - class: 👂 heard
+  - class: 🖐️ used
   - collection: 🖐️ used
   - set: 🎓 known
   - hash table: 🎓 known
-  - linked list
+  - linked list: 🖐️ used
   - doubly list
   - unrolled list
   - circular list
-  - queue
-  - stack
+  - queue: 🖐️ used
+  - stack: 🖐️ used
   - deque
-  - tree
-  - graph
+  - tree: 🖐️ used
+  - graph: 🖐️ used
   - iterator
   - mutable state
   - immutable state
-  - serialization: 🎓 known
+  - serialization: 🖐️ used
   - string parsing
 - Process & style
-  - compiler: 🎓 known
+  - compiler: 🖐️ used
   - transpiler
-  - linter
+  - linter: 🖐️ used
   - polyfill: 🎓 known
-  - debugger: 🎓 known
+  - debugger: 🖐️ used
   - garbage collection
-  - refactoring: 🎓 known
+  - refactoring: 🖐️ used
   - code review: 🖐️ used
   - antipatterns: 🖐️ used
-  - paradigm
-  - algorithm
+  - paradigm: 🖐️ used
+  - algorithm: 🎓 known
   - magic numbers: 🖐️ used
   - hardcode: 🖐️ used
   - complexity: 👂 heard
   - decomposition: 🎓 known
-  - spaghetti
+  - spaghetti: 👂 heard
   - silver bullet: 👂 heard
   - not invented here
-  - dead code
-  - unreachable code
+  - dead code: 🎓 known
+  - unreachable code: 🎓 known
   - duplicate code: 🖐️ used
-  - exception
-  - return early
+  - exception: 👂 heard
+  - return early: 👂 heard
   - unittest
-  - git: 👂 heard 
-  - github: 🎓 known
+  - git: 🖐️ used 
+  - github: 🖐️ used
